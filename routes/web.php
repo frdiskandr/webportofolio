@@ -19,7 +19,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/projek', function () {
-    return view('projek', ['title'=>'Projek','projeks' => projek::projek()]);
+    return view('projek', ['title'=>'Projek','projeks' => projek::all()]);
 });
 
 Route::get('/projek/artikel', function () {
