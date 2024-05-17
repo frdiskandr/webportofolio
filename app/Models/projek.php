@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class projek extends Model{
 
-    // public static function projek(){
+    // public static function all(){
     //     return [
     //         [
     //             'id' => 1,
